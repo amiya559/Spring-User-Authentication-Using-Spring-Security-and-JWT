@@ -1,0 +1,16 @@
+server:
+  port: 9090
+
+jwt:
+  secret: amiya@123
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/muzixapplication
+    username: amiya559
+    password: 143@Arpilu
+    platform: mysql
+  jpa:
+    hibernate:
+      ddl-auto: update
+
